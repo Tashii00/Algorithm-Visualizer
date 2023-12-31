@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searching Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <h1>Searching Visualizer</h1>
+    <button class="Home-Button" ><a href="index.html"><h1>Home</h1></a> </button>
+    <audio  class="song2"   controls autoplay loop>
+      <source src="Eurythmics - Sweet Dreams Instrumental.mp4" type="audio/mpeg">
+      
+  </audio>
+    <div class = "header-box">  </div>
+    <div class="body-box"></div>
+
+    <label  class="search-search" for="fname"> <big>Number to be Searched: </big>
+  <input type="number" id="fname" name="fname" /> </label> 
+  
+<div class="container" id="boxContainer"></div> 
+<div id="array"></div> 
+<div class="two-option-button">
+  <button class="new-array"   onclick="resetArray()">New Array</button>
+  <button class="binary-button" onclick="startBinarySearch()">Binary</button>
+  <button class="linear-button" onclick="LinearSearch()">Linear</button>
+</div> <p id="text"></p>
+</div>
+    <script src="searching.js"></script>
+    <div class="box3"></div>
+</body>
+</html>
