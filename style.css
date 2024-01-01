@@ -2,6 +2,10 @@ body {
   background-color: rgba(235, 161, 13, 1);
 }
 
+.buttons a{
+  text-decoration:none;
+}
+
 .button {
   z-index: 2;
 }
