@@ -27,7 +27,7 @@ function generatearray()
 } 
 generatearray();
 
-async function bubbleSort(delay = 300) {
+async function bubbleSort(delay = 100) {
     const blocks = document.querySelectorAll('.block');
     
     for (let i = 0; i < blocks.length; i++) {
@@ -69,7 +69,7 @@ async function bubbleSort(delay = 300) {
       blocks[blocks.length - i - 1].style.backgroundColor = '#13CE66';
     }
   }
-  async function insertionSort(delay = 300) {
+  async function insertionSort(delay = 100) {
     const blocks = document.querySelectorAll('.block');
     
     for (let i = 1; i < blocks.length; i++) {
@@ -110,7 +110,7 @@ async function bubbleSort(delay = 300) {
       }
     }
   }
-  async function selectionSort(delay = 300) {
+  async function selectionSort(delay = 100) {
     const blocks = document.querySelectorAll('.block');
   
     for (let i = 0; i < blocks.length; i++) {
