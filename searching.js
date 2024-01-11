@@ -25,7 +25,7 @@ function generatearray() {
   output.innerText = "";
 } 
 
-async function LinearSearch(delay = 300) { 
+async function LinearSearch(delay = 100) { 
   var blocks = document.querySelectorAll(".block"); 
   var output = document.getElementById("text"); 
   
@@ -71,7 +71,7 @@ async function LinearSearch(delay = 300) {
   
 // Calling generatearray function 
 generatearray(); 
-async function startBinarySearch(delay = 2000) {
+async function startBinarySearch(delay = 100) {
   var blocks = document.querySelectorAll(".block");
   var output = document.getElementById("text");
 
